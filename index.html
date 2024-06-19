@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">SHOPPING</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#services" class="navbar__links" id="services-page">Services</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#sign-up" class="navbar__links" id="signup-page">Sign Up</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="cart.html" class="navbar__links" id="cart-page">Cart</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">Discover Your <span>Style</span></h1>
+            <p class="hero__description">Shop the latest trends</p>
+            <button class="main__btn"><a href="product.html">Shop Now</a></button>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card"><i class="fas fa-store"></i></div>
+            </div>
+            <div class="main__content">
+                <h1>About Us</h1>
+                <p>We provide the best shopping experience with the latest products and unbeatable prices. Our mission is to make shopping easy and enjoyable.</p>
+                <button class="main__btn"><a href="#services">Learn More</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+        <h1>Our Services</h1>
+        <div class="services__wrapper">
+            <div class="services__card">
+                <h2>Wide Range of Products</h2>
+                <p>Find everything you need in one place</p>
+                <div class="services__btn"><button>Get Started</button></div>
+            </div>
+            <div class="services__card">
+                <h2>Exclusive Discounts</h2>
+                <p>Enjoy special deals and offers</p>
+                <div class="services__btn"><button>Get Started</button></div>
+            </div>
+            <div class="services__card">
+                <h2>Fast Delivery</h2>
+                <p>Get your products quickly and efficiently</p>
+                <div class="services__btn"><button>Get Started</button></div>
+            </div>
+            <div class="services__card">
+                <h2>24/7 Support</h2>
+                <p>We're here to help you anytime</p>
+                <div class="services__btn"><button>Get Started</button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sign-Up Section -->
+    <div class="main" id="sign-up">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Join Our Community</h1>
+                <h2>Sign Up Today</h2>
+                <p>Become a member to enjoy exclusive benefits</p>
+                <button class="main__btn"><a href="signup.html">Sign Up</a></button>
+            </div>
+            <div class="main__img--container">
+                <div class="main__img--card" id="card-2">
+                    <i class="fas fa-users"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer__container">
+            <div class="footer__links">
+                <div class="footer__link--wrapper">
+                    <div class="footer__link--items">
+                        <h2>About Us</h2>
+                        <a href="#about">How it works</a>
+                        <a href="/">Testimonials</a>
+                        <a href="/">Careers</a>
+                        <a href="/">Terms of Service</a>
+                    </div>
+                    <div class="footer__link--items">
+                        <h2>Contact Us</h2>
+                        <a href="/">Contact</a>
+                        <a href="/">Support</a>
+                        <a href="/">Destinations</a>
+                    </div>
+                </div>
+                <div class="footer__link--wrapper">
+                    <div class="footer__link--items">
+                        <h2>Videos</h2>
+                        <a href="/">Submit Video</a>
+                        <a href="/">Ambassadors</a>
+                        <a href="/">Agency</a>
+                    </div>
+                    <div class="footer__link--items">
+                        <h2>Social Media</h2>
+                        <a href="/">Instagram</a>
+                        <a href="/">Facebook</a>
+                        <a href="/">YouTube</a>
+                        <a href="/">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <section class="social__media">
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="#home" id="footer__logo">SHOPPING</a>
+                    </div>
+                    <p class="website__rights">© SHOPPING 2024. All rights reserved</p>
+                    <div class="social__icons">
+                        <a href="/" class="social__icon--link" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+                        <a href="/" class="social__icon--link"><i class="fab fa-youtube"></i></a>
+                        <a href="/" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+                        <a href="/" class="social__icon--link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
